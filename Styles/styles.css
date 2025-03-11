@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: Inter, sans-serif;
+}
+
+header {
+    padding-top: 56px;
+    margin-bottom: 92px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+nav {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 975px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Logo */
+.nav-name {
+    color: #E6533C;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+/* Hide the checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Menu Icon (Hamburger Button) */
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border-radius: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 6px 18px;
+    border-radius: 44px;
+}
+
+.nav-item:hover {
+    background: #E6533C;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#banner {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .title {
+    width: 478px;
+
+}
+
+#banner .banner-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    margin-bottom: 26px;
+    /* 93.6px */
+}
+
+#banner #title-portion {
+    color: #FFF;
+    font-family: Miama;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+#banner .banner-description {
+    color: rgba(255, 255, 255, 0.50);
+
+    /* body-text */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 150% */
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+#banner .btn-primary {
+    border-radius: 40px;
+    background: #E6533C;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 14px 37px 14px 37px;
+    /* 122.222% */
+    border: none;
+    margin-right: 10px;
+}
+
+#banner .btn-secondary {
+    border-radius: 40px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 122.222% */
+    padding: 14px 37px 14px 37px;
+    background: none;
+}
+
+#banner .banner-image {
+    position: relative;
+}
+
+#banner .banner-image img {
+    margin-left: 104px;
+}
+
+#banner .banner-image .first-badge {
+    position: absolute;
+    bottom: 45%;
+    left: 65px;
+}
+
+#banner .banner-image .second-badge {
+    position: absolute;
+    bottom: 13%;
+    left: 30px;
+
+}
+
+#banner .banner-image .third-badge {
+    position: absolute;
+    bottom: 63%;
+    left: 65%;
+}
+
+#banner .play {
+    background: none;
+    border: none;
+}
+
+#banner .play i {
+    color: rgb(250, 250, 249);
+}
+
+
+#banner .responsive-btn-1 {
+    background: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 18px 21px;
+}
+
+#banner .round-icon {
+    width: 37px;
+    height: 37px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+#banner .round-description {
+    text-align: start;
+}
+
+#banner .btn-number-1 {
+    color: var(--Text-1, #FAFAF9);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px;
+    /* 100% */
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+
+#banner .btn-description-1 {
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+
+    /* body-text */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}
+
+#banner .responsive-btn-2 {
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px 14px;
+}
+
+#banner .btn-number-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 37px;
+    /* 100% */
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+#banner .btn-description-2 {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 153.846% */
+    letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 576px) {
+
+    header {
+        background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+    }
+
+    nav {
+        background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    /* Hide nav-links initially */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #222;
+        padding: 10px;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    /* Show the menu when checkbox is checked */
+    #menu-toggle:checked~.nav-links {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 6px 0;
+    }
+
+    #banner {
+        flex-direction: column;
+    }
+
+    #banner .title {
+        width: 100%;
+        margin-top: 47px;
+        padding: 0 20px;
+    }
+
+    #banner .banner-title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 110%;
+        width: 262px;
+        /* 43.2px */
+    }
+
+    #banner #title-portion {
+        color: #FFF;
+        font-family: Miama;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+    }
+
+    #banner .banner-description {
+        color: rgba(255, 255, 255, 0.50);
+
+        /* body-text */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        /* 150% */
+        letter-spacing: 0.5px;
+        width: 252px;
+    }
+
+    #banner .btn {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner .btn-primary {
+        border-radius: 30px;
+        background: #E6533C;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 10px 30px;
+        border: none;
+    }
+
+    #banner .btn-secondary {
+        border-radius: 30px;
+        border: 1px solid #FFF;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 122.222% */
+        padding: 8px 30px;
+        background: none;
+    }
+
+    #banner .banner-image {
+        width: 100%
+    }
+
+    #banner .banner-image img {
+        margin-left: 45px;
+    }
+
+    #banner .banner-image .first-badge {
+        z-index: 1;
+    }
+
+    #banner .banner-image .second-badge {
+        bottom: 40.8%;
+        left: 35.5px;
+
+    }
+
+    #banner .banner-image .third-badge {
+        bottom: 80%;
+        left: 61%;
+    }
+
+    #banner .responsive-btn-1 {
+        padding: 14px 17px;
+    }
+
+    #banner .round-icon {
+        width: 30px;
+        height: 30px;
+        background: rgb(230, 83, 60);
+        border-radius: 50%;
+    }
+
+    #banner .btn-number-1 {
+        color: var(--Text-1, #FAFAF9);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 16px;
+        /* 100% */
+        letter-spacing: 0.3px;
+        margin-bottom: 6px;
+    }
+
+    #banner .btn-description-1 {
+        color: var(--Text-2, rgba(239, 237, 232, 0.65));
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    #banner .responsive-btn-2 {
+        padding: 10px 16px;
+    }
+
+    #banner .btn-number-2 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px;
+        /* 100% */
+        letter-spacing: 1px;
+        margin-bottom: 6px;
+    }
+
+    #banner .btn-description-2 {
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Inter;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        /* 153.846% */
+        letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        gap: 5px;
+        padding: 4px 6px;
+    }
+
+    #banner {
+        flex-direction: column;
+    }
+
+    #banner .title {
+        width: 100%;
+        margin-top: 69px;
+        padding: 0 66px;
+    }
+
+    #banner .banner-description {
+        color: rgba(255, 255, 255, 0.50);
+
+        /* body-text */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 150% */
+        letter-spacing: 0.5px;
+        margin-bottom: 26px;
+    }
+
+    #banner .banner-image .first-badge {
+        position: absolute;
+        bottom: 48%;
+        left: 65px;
+    }
+
+    #banner .banner-image .second-badge {
+        position: absolute;
+        bottom: 23%;
+        left: 30px;
+
+    }
+
+    #banner .banner-image .third-badge {
+        position: absolute;
+        bottom: 75%;
+        left: 65%;
+    }
+
+
+
+}
