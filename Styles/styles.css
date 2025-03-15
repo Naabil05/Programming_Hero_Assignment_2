@@ -274,6 +274,306 @@ nav {
     letter-spacing: 1px;
 }
 
+#feature {
+    margin-bottom: 92px;
+}
+
+#feature .feature-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    margin-bottom: 14px;
+    /* 57.6px */
+}
+
+#feature .feature-description {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.3px;
+    width: 617px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+
+#feature .feature-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 975px;
+    margin: 0 auto;
+    gap: 36px;
+}
+
+#feature .feature-container {
+    width: 213px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature .feature-container img {
+    border-radius: 50%;
+    border: 5px solid #222;
+}
+
+
+#feature .feature-card .feature-container .img-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    margin-top: 28px;
+    margin-bottom: 6px;
+    /* 21.6px */
+}
+
+#feature .feature-card .feature-container .img-description {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 128.571% */
+    letter-spacing: 0.3px;
+}
+
+#card {
+    display: flex;
+    gap: 152px;
+    width: 975px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 50px;
+    border-radius: 18px;
+    background: #222;
+    margin-bottom: 92px;
+}
+
+#card .title-container {
+    width: 408px;
+}
+
+#card .card-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    padding-right: 20px;
+    margin-bottom: 14px;
+    /* 57.6px */
+}
+
+#card .card-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 171.429% */
+    letter-spacing: 0.3px;
+    margin-bottom: 32px;
+}
+
+#card .btn-primary {
+    border-radius: 40px;
+    background: #E6533C;
+    border: none;
+    padding: 14px 37px 14px 37px;
+}
+
+#card .btn-primary a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+
+}
+
+
+#card .img-container img {
+    max-width: 337px;
+}
+
+#training {
+    width: 975px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+#training .training-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    margin-bottom: 14px;
+}
+
+#training .training-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 53px;
+    width: 550px;
+}
+
+#training .training-session {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 975px;
+    margin: 0 auto;
+}
+
+#training .train-1 {
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url(../images/exercise1.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 210px;
+    display: flex;
+    align-items: end;
+    padding-left: 30px;
+    padding-bottom: 35px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+#training .train-2 {
+    position: relative;
+    left: -33%;
+    z-index: 0;
+    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url(../images/exercise2.png);
+    background-size: cover;
+    width: 462px;
+    height: 210px;
+    display: flex;
+    align-items: start;
+    padding-left: 30px;
+    padding-top: 25px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#training .train-3 {
+    position: relative;
+    z-index: 1;
+    left: -62.5%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise3.png);
+    background-size: cover;
+    width: 300px;
+    height: 210px;
+    display: flex;
+    align-items: end;
+    padding-left: 60px;
+    padding-bottom: 25px;
+    padding-right: 90px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#training .train-4 {
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise4.png);
+    background-size: cover;
+    width: 400px;
+    height: 210px;
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
+    padding-left: 220px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#training .train-5 {
+    position: relative;
+    background-image: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url(../images/exercise5.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 210px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 70px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#training .train-6 {
+    position: relative;
+    left: -62.5%;
+    background-image: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url(../images/exercise6.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 210px;
+    display: flex;
+    align-items: end;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 110px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+
 /* Responsive Design */
 @media screen and (max-width: 576px) {
 
@@ -477,6 +777,139 @@ nav {
         letter-spacing: 1px;
     }
 
+    #feature .feature-card {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    #feature .feature-title {
+        width: 100%;
+    }
+
+    #feature .feature-description {
+        width: 100%;
+        padding: 0 40px;
+
+    }
+
+    #card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        padding: 29px 30px 32px;
+    }
+
+    #card .title-container {
+        width: 100%;
+    }
+
+    #card .card-title {
+
+        font-size: 30px;
+        font-style: normal;
+        padding-right: 100px;
+    }
+
+    #card .card-description {
+        padding-right: 40px;
+    }
+
+    #card .btn-primary {
+        width: 100%;
+        padding: 10px 30px;
+
+    }
+
+    #training {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #training .training-session {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    #training .training-description {
+        width: 100%;
+    }
+
+
+
+    #training .train-1 {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+
+        padding-left: 25px;
+        padding-bottom: 25px;
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-2 {
+        position: absolute;
+        left: 17.5%;
+        width: 82.5%;
+
+        padding-left: 40%;
+        padding-top: 25px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-3 {
+        display: none;
+
+    }
+
+    #training .train-4 {
+        position: relative;
+        top: 100%;
+        right: 10%;
+        width: 110%;
+        align-items: end;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-5 {
+
+        position: relative;
+        width: 100%;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-6 {
+        display: none;
+    }
+
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -535,6 +968,157 @@ nav {
         left: 65%;
     }
 
+    #feature .feature-card {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 0 auto;
+        gap: 20px;
+    }
 
+    #feature .feature-description {
+        width: 100%;
+        padding: 0 40px;
+
+    }
+
+    #card {
+        width: 100%;
+        gap: 62px;
+        padding: 40px 54px;
+
+    }
+
+    #card .card-title {
+
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 110%;
+        padding-right: 20px;
+        max-width: 263px;
+    }
+
+    #card .card-description {
+        padding-right: 40px;
+    }
+
+    #card .img-container img {
+        width: 100%;
+    }
+
+    #training {
+        width: 100%;
+
+    }
+
+    #training .training-session {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #training .train-1 {
+        position: relative;
+        z-index: 2;
+        width: 55%;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-2 {
+        position: absolute;
+        z-index: 1;
+        left: 25%;
+        width: 50%;
+        /* height: 50%; */
+        padding-left: 100px;
+        padding-top: 25px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-3 {
+        position: relative;
+        z-index: 2;
+        left: 40%;
+        width: 60%;
+        /* height: 100%; */
+        padding-left: 30px;
+        padding-bottom: 25px;
+        padding-right: 70px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-4 {
+        position: relative;
+        /* z-index: 0; */
+        /* top: -10%; */
+        width: 70%;
+        /* height: 180px; */
+        align-items: end;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 110px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-5 {
+        position: relative;
+        /* z-index: -1; */
+        /* top: -10%; */
+        left: -42%;
+        width: 72%;
+        /* height: 180px; */
+        padding-bottom: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #training .train-6 {
+        position: relative;
+        /* z-index: 3; */
+        top: -100%;
+        left: 130%;
+        width: 70%;
+        /* height: 180px; */
+        display: flex;
+        align-items: end;
+        padding-left: 30px;
+        padding-bottom: 25px;
+        padding-right: 110px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
 
 }
