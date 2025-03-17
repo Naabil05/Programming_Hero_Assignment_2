@@ -1440,7 +1440,9 @@ footer .under-title {
     #footer-section .footer-menu {
         flex-direction: column;
         gap: 30px;
+        width: 100%;
     }
+
 
     #footer-section .menu-title {
         padding-bottom: 20px;
@@ -1744,9 +1746,21 @@ footer .under-title {
 
     }
 
+    #footer-section .title {
+        width: 100%;
+    }
+
+    #footer-section .footer-menu {
+        width: 100%;
+
+    }
+
     footer hr {
         width: 100%;
     }
 
+    footer .under-title {
+        font-size: 13px;
+    }
 
 }
